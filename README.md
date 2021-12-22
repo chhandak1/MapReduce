@@ -1,6 +1,8 @@
 # Project 1: MapReduce on a single server
 
-## Runs mapper and reducer on multiple worker processes. Incorporates fault tolernace by restarting a worker process if it is killed. 
+Collaborators: Alolika Gon, Kinnri Sinha
+
+## Runs mapper and reducer on multiple worker processes. Incorporates fault tolerance by restarting a worker process if it is killed. 
 
 ### Application Explanation
 
