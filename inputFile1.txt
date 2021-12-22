@@ -1,0 +1,12 @@
+doc1	"Word1 "Word2;" "Word3":;
+doc2	word5 word7;
+doc3	word1
+doc4	"Word1 "Word2;" "Word3":;
+doc5	word5 word7;
+doc6	word1
+doc7	"Word1 "Word2;" "Word3":;
+doc8	word5 word7;
+doc9	word1
+doc10	"Word1 "Word2;" "Word3":;
+doc11	word5 word7;
+doc12	word1

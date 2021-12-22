@@ -1,0 +1,1 @@
+word3	doc1 doc10 doc4 doc7

@@ -1,0 +1,11 @@
+a	1
+and	1
+be	2
+create	1
+does	1
+inherently	1
+is	1
+necessary	1
+not	3
+spot	1
+tit	1

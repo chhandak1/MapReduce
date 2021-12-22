@@ -1,0 +1,2 @@
+word1	doc1 doc10 doc12 doc3 doc4 doc6 doc7 doc9
+word7	doc11 doc2 doc5 doc8

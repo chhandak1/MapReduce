@@ -1,0 +1,90 @@
+Starting
+Master called
+Total lines: 12
+#Splits: 3
+-------------------------Starting Map Phase--------------------------
+Starting Mapper 1
+Starting Mapper 2
+Starting Mapper 3
+Mapper 3 completed
+Mapper 2 completed
+Mapper 1 completed
+-------------------------Map Phase Completed-------------------------
+------------------------Starting Reduce Phase------------------------
+Starting Reducer 1
+Starting Reducer 2
+Starting Reducer 3
+Reducer 1 completed
+Reducer 2 completed
+Reducer 3 completed
+-----------------------Reduce Phase Completed------------------------
+Intermediate files successfully deleted
+Input file partitions successfully deleted
+Starting
+Master called
+Total lines: 10
+#Splits: 3
+-------------------------Starting Map Phase--------------------------
+Starting Mapper 1
+Starting Mapper 2
+Starting Mapper 3
+Mapper 1 completed
+Mapper 2 completed
+Mapper 3 completed
+-------------------------Map Phase Completed-------------------------
+------------------------Starting Reduce Phase------------------------
+Starting Reducer 1
+Starting Reducer 2
+Starting Reducer 3
+Reducer 2 completed
+Reducer 1 completed
+Reducer 3 completed
+-----------------------Reduce Phase Completed------------------------
+Intermediate files successfully deleted
+Input file partitions successfully deleted
+Starting
+Master called
+Total lines: 24
+#Splits: 3
+-------------------------Starting Map Phase--------------------------
+Starting Mapper 1
+Starting Mapper 2
+Starting Mapper 3
+Mapper 1 completed
+Mapper 3 completed
+Mapper 2 completed
+-------------------------Map Phase Completed-------------------------
+------------------------Starting Reduce Phase------------------------
+Starting Reducer 1
+Starting Reducer 2
+Starting Reducer 3
+Reducer 1 completed
+Reducer 3 completed
+Reducer 2 completed
+-----------------------Reduce Phase Completed------------------------
+Intermediate files successfully deleted
+Input file partitions successfully deleted
+
+Testing without fault tolerance
+
+
+		Running UDF 1 
+
+
+UDF 1  completed
+
+Test case passed for UDF1
+
+		Running UDF 2 
+
+
+UDF 2  completed
+
+Test case passed for UDF2
+
+		Running UDF 3 
+
+
+UDF 3  completed
+
+Test case passed for UDF3

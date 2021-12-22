@@ -1,0 +1,114 @@
+
+Testing with fault tolerance
+
+
+		Running UDF 1 
+
+Starting
+Master called
+Total lines: 12
+#Splits: 3
+-------------------------Starting Map Phase--------------------------
+Starting Mapper 1
+Starting Mapper 2
+Starting Mapper 3
+Children Process IDs found:  [2381, 2382, 2383]
+Killed  2382
+Mapper 3 completed
+Mapper 1 completed
+Mapper 2 got killed
+Restarting Mapper 2
+Restarted mapper 2 completed
+-------------------------Map Phase Completed-------------------------
+------------------------Starting Reduce Phase------------------------
+Starting Reducer 1
+Starting Reducer 2
+Starting Reducer 3
+Children Process IDs found:  [2388, 2389, 2390]
+Killed  2389
+Reducer 1 completed
+Reducer 3 completed
+Reducer 2 got killed
+Retarting Reducer 2
+Restarted reducer 2 completed
+-----------------------Reduce Phase Completed------------------------
+Intermediate files successfully deleted
+Input file partitions successfully deleted
+
+UDF 1  completed
+
+Test case passed for UDF1
+
+		Running UDF 2 
+
+Starting
+Master called
+Total lines: 10
+#Splits: 3
+-------------------------Starting Map Phase--------------------------
+Starting Mapper 1
+Starting Mapper 2
+Starting Mapper 3
+Children Process IDs found:  [2402, 2403, 2404]
+Killed  2402
+Mapper 2 completed
+Mapper 3 completed
+Mapper 1 got killed
+Restarting Mapper 1
+Restarted mapper 1 completed
+-------------------------Map Phase Completed-------------------------
+------------------------Starting Reduce Phase------------------------
+Starting Reducer 1
+Starting Reducer 2
+Starting Reducer 3
+Children Process IDs found:  [2409, 2410, 2411]
+Killed  2410
+Reducer 1 completed
+Reducer 3 completed
+Reducer 2 got killed
+Retarting Reducer 2
+Restarted reducer 2 completed
+-----------------------Reduce Phase Completed------------------------
+Intermediate files successfully deleted
+Input file partitions successfully deleted
+
+UDF 2  completed
+
+Test case passed for UDF2
+
+		Running UDF 3 
+
+Starting
+Master called
+Total lines: 24
+#Splits: 3
+-------------------------Starting Map Phase--------------------------
+Starting Mapper 1
+Starting Mapper 2
+Starting Mapper 3
+Children Process IDs found:  [2423, 2424, 2425]
+Killed  2424
+Mapper 1 completed
+Mapper 3 completed
+Mapper 2 got killed
+Restarting Mapper 2
+Restarted mapper 2 completed
+-------------------------Map Phase Completed-------------------------
+------------------------Starting Reduce Phase------------------------
+Starting Reducer 1
+Starting Reducer 2
+Starting Reducer 3
+Children Process IDs found:  [2430, 2431, 2432]
+Killed  2432
+Reducer 3 got killed
+Retarting Reducer 3
+Restarted reducer 3 completed
+Reducer 2 completed
+Reducer 1 completed
+-----------------------Reduce Phase Completed------------------------
+Intermediate files successfully deleted
+Input file partitions successfully deleted
+
+UDF 3  completed
+
+Test case passed for UDF3
